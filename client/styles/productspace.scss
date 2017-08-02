@@ -34,9 +34,35 @@ body {
   	white-space: pre-line;
   	line-height: 1.5em;
   }
+  .link {
+  	text-decoration: none;
+  }
   .emphasized {
   	color: #8200bf;
   }
+  .work-logo {
+  	max-width: 90%;
+  	max-height: 45%;
+  	display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border-radius: 1em;
+  }
+  .work-front-title {
+  	font-weight:bold;
+  	font-size: 1.2em;
+  	margin-bottom: 0.5em;
+  }
+	.work-front-subtitle {
+  	font-size: 1.1em;
+  	margin-bottom: 0.5em;
+  }
+  .work-front-desc {
+  	font-size: 0.9em;
+  	font-style: italic;
+  	margin-bottom: 0.5em;
+  }
+
   .disable-select {
     -webkit-touch-callout:none;
     -webkit-user-select:none;
@@ -45,4 +71,28 @@ body {
     user-select:none;
     cursor: default;
 	}
+	.ReactFlipCard {
+		margin: 0.5em 1em;
+		overflow: visible;
+	}
+	.ReactFlipCard,
+  .ReactFlipCard__Front,
+  .ReactFlipCard__Back {
+    box-sizing: border-box;
+    width: 30vw;
+    height: 30vh;
+    overflow-y: auto;
+  }
+  .ReactFlipCard__Front,
+  .ReactFlipCard__Back {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1em;
+  }
+  .ReactFlipCard__Front {
+    background-color: #eee;
+  }
+  .ReactFlipCard__Back {
+    background-color: #cef;
+  }
 }
