@@ -1,3 +1,15 @@
 body {
   color: white;
+  .landing-text {
+  	position: absolute;
+  	text-align:center;
+  	width: 100%; 
+  	top: 16%; 
+  	font-size: 2em;
+  }
+  .particles {
+  	position: absolute;
+  	height: '100%'; 
+  	width: '100%';
+  }
 }
