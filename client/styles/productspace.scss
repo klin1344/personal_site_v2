@@ -23,6 +23,20 @@ body {
     border-radius: 1em;
     margin-top: 1em;
   }
+  .header {
+  	font-size: 2em;
+  }
+  .about-text {
+  	font-size: 1.4em;
+  	width: 70vw;
+  	max-width: 35em;
+  	margin: 0 auto;
+  	white-space: pre-line;
+  	line-height: 1.5em;
+  }
+  .emphasized {
+  	color: #8200bf;
+  }
   .disable-select {
     -webkit-touch-callout:none;
     -webkit-user-select:none;
