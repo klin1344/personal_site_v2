@@ -1,5 +1,7 @@
 body {
-  color: white;
+  .landing {
+  	color: white;
+  }
   .landing-text {
   	position: absolute;
   	text-align:center;
@@ -13,9 +15,20 @@ body {
   	font-size: 0.7em;
   	letter-spacing: 0.15em;
   }
-  .particles {
-  	position: absolute !important;
-  	height: '100%' !important; 
-  	width: '100%' !important;
+  .profile {
+  	height: 30vh;
+  	width: auto;
+  	display: block;
+    margin: 0 auto;
+    border-radius: 1em;
+    margin-top: 1em;
   }
+  .disable-select {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor: default;
+	}
 }
