@@ -8,7 +8,7 @@ const Projects = () => {
 
     projectsData.forEach(project => {
       projectTiles.push(
-        <ProjectTile {...project}></ProjectTile>
+        <ProjectTile key={project.title} {...project}></ProjectTile>
       )
     })
     return projectTiles
