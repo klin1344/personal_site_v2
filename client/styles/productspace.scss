@@ -104,9 +104,15 @@ body {
     width: 100%;
   }
   .card span.card-title {
-    font-size: 1.5em;
-    font-weight: 300;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
     text-transform: uppercase;
+    background-color: #F44336;
+    opacity: 0.75;
+    text-shadow: black 0 0 2em;
+    text-align: left;
+    width: auto;
   }
   .card .card-image {
     position: relative;
@@ -132,6 +138,8 @@ body {
     border-radius: 0 0 2px 2px;
     background-clip: padding-box;
     box-sizing: border-box;
+    font-size: 0.9em;
+    font-style: italic;
   }
   .card .card-content p {
     margin: 0;
@@ -150,7 +158,8 @@ body {
   }
 
   .react-typeout {
-    color: red;
+    color: #B71C1C;
+    font-weight: 300;
   }
 
   .project-img {
