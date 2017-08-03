@@ -5,6 +5,7 @@ import projectsData from './ProjectsData'
 const Projects = () => {
   const renderProjects = (projectsData) => {
     let projectTiles = []
+
     projectsData.forEach(project => {
       projectTiles.push(
         <ProjectTile {...project}></ProjectTile>

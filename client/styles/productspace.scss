@@ -91,9 +91,6 @@ body {
     overflow-y: auto;
   }
 
-  .card {
-    box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
-  }
 
   .card {
     box-sizing: border-box;
@@ -102,6 +99,8 @@ body {
     padding-top: 1em;
     height: 100%;
     width: 100%;
+    box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
   }
   .card span.card-title {
     font-size: 1.2em;
@@ -187,5 +186,24 @@ body {
     width: 2em;
     background: gray;
     margin: 2.5em auto;
+  }
+
+  .ribbon {
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: #333;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    margin-top: -17.5em;
+    margin-right: -13em;
+    min-width: 4em;
+    right: 0em;
+    height: auto;
+    background-color: #ebb134;
+    color: #fff;
+    box-shadow: 0.2em 0.1em 1.2em gray;
   }
 }

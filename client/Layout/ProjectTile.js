@@ -26,10 +26,12 @@ class ProjectTile extends Component {
             <div style={{fontSize: '0.85em'}}>
               I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
             </div>
+             <div className="ribbon">Winner</div>
         </div>
         <div>
           {description}
         </div>
+
         </FlipCard>
       </Col>
 
