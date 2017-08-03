@@ -3,7 +3,7 @@
   {
     "number":
     {
-      "value": 60,
+      "value": 80,
       "density":
       {
         "enable": true,
@@ -12,7 +12,7 @@
     },
     "color":
     {
-      "value": "#ffffff"
+      "value": "#1E88E5"
     },
     "shape":
     {
@@ -42,7 +42,7 @@
       "anim":
       {
         "enable": false,
-        "speed": 80,
+        "speed": 50,
         "size_min": 0.5,
         "sync": false
       }
@@ -51,14 +51,14 @@
     {
       "enable": true,
       "distance": 250,
-      "color": "#ffffff",
-      "opacity": 0.5,
+      "color": "#ECEFF1",
+      "opacity": 0.3,
       "width": 1
     },
     "move":
     {
       "enable": true,
-      "speed": 4,
+      "speed": 3,
       "direction": "none",
       "random": true,
       "straight": false,

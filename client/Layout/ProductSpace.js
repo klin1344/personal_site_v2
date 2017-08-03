@@ -20,7 +20,7 @@ const ProductSpace = () => {
   return (
     <div>
       <SectionsContainer {...options}>
-        <Section color="#000714">
+        <Section color="#00050f">
           <Landing></Landing>
         </Section>
       </SectionsContainer>
