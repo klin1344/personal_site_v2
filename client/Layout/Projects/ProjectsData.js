@@ -1,13 +1,13 @@
-import alignrImg from '../static/project_images/alignr.png'
-import defbeatsImg from '../static/project_images/defbeats.jpg'
-import owlsecurityImg from '../static/project_images/owlsecurity.png'
-import cardifyImg from '../static/project_images/cardifyflashcards.png'
-import energycityImg from '../static/project_images/energycity.png'
-import kinematicphysicsImg from '../static/project_images/kinematicphysics.png'
-import marsvarsImg from '../static/project_images/marsvars.jpg'
-import pictolateImg from '../static/project_images/pictolate.jpg'
-import sandalsImg from '../static/project_images/sandals.png'
-import oldsiteImg from '../static/project_images/oldpersonalwebsite.png'
+import alignrImg from '../../static/project_images/alignr.png'
+import defbeatsImg from '../../static/project_images/defbeats.jpg'
+import owlsecurityImg from '../../static/project_images/owlsecurity.png'
+import cardifyImg from '../../static/project_images/cardifyflashcards.png'
+import energycityImg from '../../static/project_images/energycity.png'
+import kinematicphysicsImg from '../../static/project_images/kinematicphysics.png'
+import marsvarsImg from '../../static/project_images/marsvars.jpg'
+import pictolateImg from '../../static/project_images/pictolate.jpg'
+import sandalsImg from '../../static/project_images/sandals.png'
+import oldsiteImg from '../../static/project_images/oldpersonalwebsite.png'
 const projectsData = [{
     title: 'Alignr',
     image: alignrImg,

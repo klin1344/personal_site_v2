@@ -1,6 +1,6 @@
 import React from 'react'
 import FlipCard from 'react-flipcard'
-import qriLogo from '../static/qri.png'
+import qriLogo from '../../static/qri.png'
 import WorkFront from './WorkFront'
 import WorkBack from './WorkBack'
 import { Col, Container } from 'react-grid-system'

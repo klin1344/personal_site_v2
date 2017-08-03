@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../static/profile.png'
+import profile from '../../static/profile.png'
 import FlipCard from 'react-flipcard'
 import WorkPanel from './WorkPanel'
 import ButtonsBar from './ButtonsBar'

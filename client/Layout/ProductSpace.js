@@ -1,14 +1,12 @@
 import React from 'react'
 import { SectionsContainer, Section, Header } from 'react-fullpage'
 
-import Landing from './Landing'
-import About from './About'
-import Projects from './Projects'
+import Landing from './Landing/Landing'
+import About from './About/About'
+import Projects from './Projects/Projects'
 
 const ProductSpace = () => {
   const options = {
-    sectionClassName: 'section',
-    anchors: ['landing'],
     scrollBar: true,
     delay: 1000,
     navigation: true,
@@ -19,8 +17,9 @@ const ProductSpace = () => {
   }
   return (
     <div>
+      
       <SectionsContainer {...options}>
-        <Section color="#00050f">
+        <Section color="#000105">
           <Landing></Landing>
         </Section>
       </SectionsContainer>

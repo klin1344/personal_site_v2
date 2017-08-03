@@ -14,7 +14,8 @@
     "react-typeout": "^0.6.3"
   },
   "scripts": {
-    "watch:client": "webpack-dev-server --hot"
+    "watch:client": "webpack-dev-server --hot",
+    "build:client": "webpack -p --progress"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
