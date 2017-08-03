@@ -1,0 +1,31 @@
+@import './About/about';
+@import './Projects/projects';
+@import './ReactFlipCard/ReactFlipCard';
+@import './Landing/landing';
+body {
+  .disable-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  .panel-header {
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+    margin-bottom: 0.3em;
+    text-align: center;
+  }
+  .divider {
+    height: 1px;
+    width: 2em;
+    background: gray;
+    margin: 2.5em auto;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    color: inherit;
+  }
+}

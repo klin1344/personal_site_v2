@@ -1,0 +1,101 @@
+body {
+  .card {
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-clip: padding-box;
+    padding-top: 1em;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+  }
+  .card span.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: #F44336;
+    opacity: 0.75;
+    text-shadow: black 0 0 2em;
+    text-align: left;
+    width: auto;
+  }
+  .card .card-image {
+    position: relative;
+    overflow: hidden;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+  }
+  .card .card-image img {
+    border-radius: 2px 2px 0 0;
+    background-clip: padding-box;
+    position: relative;
+    z-index: -1;
+  }
+  .card .card-image span.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.3em;
+  }
+  .card .card-content {
+    padding: 0.5em;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+  .card .card-content p {
+    margin: 0;
+    color: inherit;
+  }
+  .card .card-content span.card-title {
+    line-height: 1.5em;
+  }
+  .card .card-action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 0.5em;
+  }
+  .card .card-action a:hover {
+    color: #ffd8a6;
+    text-decoration: none;
+  }
+
+  .react-typeout {
+    color: #B71C1C;
+    font-weight: 300;
+  }
+
+  .project-img {
+    max-height: 90%;
+    max-width: 90%;
+  }
+
+  .ribbon {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: absolute;
+    width: 6em;
+    right: -0.9em;
+    top: 1.7em;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0.2em 0.1em 1.2em gray;
+    &.winner {
+      background-color: #2E7D32;
+    }
+    &.published {
+      background-color: #FB8C00;
+    }
+    &.none {
+      visibility: hidden;
+    }
+  }
+}

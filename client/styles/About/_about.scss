@@ -1,0 +1,53 @@
+body {
+  .profile {
+    height: 25vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1em;
+    margin-top: 1em;
+  }
+  .header {
+    font-size: 2em;
+  }
+  .about-text {
+    font-size: 1.25em;
+    width: 70vw;
+    max-width: 40em;
+    margin: 0 auto;
+    white-space: pre-line;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+  }
+  .emphasized {
+    color: #7E57C2;
+    font-weight: 300;
+  }
+  .work-logo {
+    max-width: 90%;
+    max-height: 45%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border-radius: 1em;
+  }
+  .work-front-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  .work-front-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
+  .work-front-desc {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 0 0.1em 0.5em 0.1em;
+  }
+  .social-button {
+    font-size: 2.5em;
+    cursor: pointer;
+    margin-left: 1em;
+  }
+}

@@ -26,6 +26,8 @@ const ProductSpace = () => {
       <About></About>
       <div className="divider"></div>
       <Projects></Projects>
+      <div className="divider"></div>
+      <footer><i className="fa fa-copyright" aria-hidden="true"></i>Hi</footer>
     </div>
   )
 }

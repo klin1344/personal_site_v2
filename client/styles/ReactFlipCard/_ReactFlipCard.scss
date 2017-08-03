@@ -1,0 +1,21 @@
+body {
+  .ReactFlipCard {
+    margin: 0.5em 1em;
+  }
+  .ReactFlipCard,
+  .ReactFlipCard__Front,
+  .ReactFlipCard__Back {
+    box-sizing: border-box;
+    height: 25vh;
+    width: 100%;
+    max-width: 23em;
+  }
+  .ReactFlipCard__Front {
+    background-color: #f2f2f2;
+  }
+  .ReactFlipCard__Back {
+    background-color: #dbdbdb;
+    padding: 1em;
+    overflow-y: auto;
+  }
+}
