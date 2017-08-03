@@ -7,8 +7,7 @@ import kinematicphysicsImg from '../static/project_images/kinematicphysics.png'
 import marsvarsImg from '../static/project_images/marsvars.jpg'
 import pictolateImg from '../static/project_images/pictolate.jpg'
 import sandalsImg from '../static/project_images/sandals.png'
-const projectsData = [
-  {
+const projectsData = [{
     title: 'Alignr',
     image: alignrImg,
     type: 'Personal Project, Web',
@@ -40,7 +39,7 @@ const projectsData = [
     title: 'Energy City',
     image: energycityImg,
     type: 'Personal Project, Android',
-    tech: ['Java', 'Android SDK', 'LibGDX Game Engine'],
+    tech: ['Java', 'Android SDK', 'LibGDX'],
     description: 'A simple, yet captivating 2D game that will test your reflexes—and patience! The goal is simple: make the lightning strike hit the battery to charge it and power the city! Published to Google Play Store, July 2014. Over 300 downloads.'
   },
   {
@@ -61,7 +60,7 @@ const projectsData = [
     title: 'Pictolate',
     image: pictolateImg,
     type: 'HackTX, Web',
-    tech: ['HTML/CSS', 'Node.js', 'RapidAPI', 'Microsoft Computer Vision', 'Google Cloud'],
+    tech: ['HTML/CSS', 'Node.js', 'RapidAPI', 'Azure APIs', 'Google Cloud'],
     description: 'A Web-based application that analyzes the contents of any picture and converts it to a foreign language of the users choice. Created at HackTX 2016.'
   },
   {

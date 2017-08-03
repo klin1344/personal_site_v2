@@ -1,32 +1,33 @@
 import React from 'react'
-import { SectionsContainer, Section } from 'react-fullpage'
+import { SectionsContainer, Section, Header } from 'react-fullpage'
 
 import Landing from './Landing'
 import About from './About'
 import Projects from './Projects'
+
 const ProductSpace = () => {
   const options = {
     sectionClassName: 'section',
-    anchors: ['sectionOne', 'sectionTwo', 'sectionThree'],
+    anchors: ['landing'],
     scrollBar: true,
-    navigation: false,
+    delay: 1000,
+    navigation: true,
     verticalAlign: false,
     sectionPaddingTop: '0px',
     sectionPaddingBottom: '0px',
     arrowNavigation: true
   }
   return (
-    <SectionsContainer {...options}>
-      <Section color="#000714">
-        <Landing></Landing>
-      </Section>
-      <Section>
-        <About></About>
-      </Section>
-      <Section>
-        <Projects></Projects>
-      </Section>
-    </SectionsContainer>
+    <div>
+      <SectionsContainer {...options}>
+        <Section color="#000714">
+          <Landing></Landing>
+        </Section>
+      </SectionsContainer>
+      <About></About>
+      <div className="divider"></div>
+      <Projects></Projects>
+    </div>
   )
 }
 export default ProductSpace

@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import {Col} from 'react-grid-system'
+import React, { Component } from 'react'
+import { Col } from 'react-grid-system'
 import FlipCard from 'react-flipcard'
 import TypeOut from 'react-typeout'
 
@@ -8,7 +8,7 @@ class ProjectTile extends Component {
     super(props)
   }
   render() {
-    const {title, image, tech, type, description} = this.props
+    const { title, image, tech, type, description } = this.props
     return (
       <Col xs={12} sm={6} md={4} lg={4}>
         <FlipCard>
@@ -23,7 +23,7 @@ class ProjectTile extends Component {
           </div>
                 
           <div className="card-action">
-            <div>
+            <div style={{fontSize: '0.85em'}}>
               I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
             </div>
         </div>
