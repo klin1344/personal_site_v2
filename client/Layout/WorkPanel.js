@@ -25,7 +25,7 @@ const WorkPanel = () => {
                       description="Full Stack"
                       logo={qriLogo}>
           </WorkFront>
-          <WorkBack list={['Joining the Quantum Technologies team again.']}></WorkBack>
+          <WorkBack list={['Returning to the Quantum Technologies team again for the school year.']}></WorkBack>
         </FlipCard>
       </Col>
     </Container>
