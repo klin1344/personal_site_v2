@@ -11,7 +11,7 @@ class ProjectTile extends Component {
     const { title, image, tech, type, description, link, ribbon } = this.props
     return (
       <Col xs={12} sm={6} md={4} lg={4}>
-        <a target="_blank" href={link} style={{textDecoration: 'none', color: 'inherit'}}>
+        <a target="_blank" href={link} className="no-decoration">
           <FlipCard>
             <div className="card">
               <div className="card-image">
@@ -27,7 +27,7 @@ class ProjectTile extends Component {
                 <div style={{fontSize: '0.85em'}}>
                   I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
                 </div>
-                 <div className={`ribbon ${ribbon}`}>{ribbon}</div>
+              <div className={`ribbon ${ribbon}`}>{ribbon}</div>
             </div>
             <div>
               {description}

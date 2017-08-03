@@ -34,9 +34,6 @@ body {
     white-space: pre-line;
     line-height: 1.5em;
   }
-  .link {
-    text-decoration: none;
-  }
   .emphasized {
     color: #8200bf;
   }
@@ -212,5 +209,10 @@ body {
     &.none {
       visibility: hidden;
     }
+  }
+
+  .no-decoration {
+    text-decoration: none;
+    color: inherit;
   }
 }
