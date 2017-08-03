@@ -8,7 +8,7 @@ class ProjectTile extends Component {
     super(props)
   }
   render() {
-    const {title, image, tech, type} = this.props
+    const {title, image, tech, type, description} = this.props
     return (
       <Col xs={12} sm={6} md={4} lg={4}>
         <FlipCard>
@@ -27,7 +27,9 @@ class ProjectTile extends Component {
               I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
             </div>
         </div>
-        <div></div>
+        <div>
+          {description}
+        </div>
         </FlipCard>
       </Col>
 
