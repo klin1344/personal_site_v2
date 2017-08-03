@@ -7,6 +7,7 @@ import kinematicphysicsImg from '../static/project_images/kinematicphysics.png'
 import marsvarsImg from '../static/project_images/marsvars.jpg'
 import pictolateImg from '../static/project_images/pictolate.jpg'
 import sandalsImg from '../static/project_images/sandals.png'
+import oldsiteImg from '../static/project_images/oldpersonalwebsite.png'
 const projectsData = [{
     title: 'Alignr',
     image: alignrImg,
@@ -86,6 +87,15 @@ const projectsData = [{
     tech: ['Java', 'Android SDK', 'Google Firebase'],
     description: 'A proof-of-concept Android application that helps users interact within different social groups, including family, friends, and peers.  Created at HackRice 2016.',
     link: 'https://github.com/klin1344/Sandals',
+    ribbon: 'none'
+  },
+  {
+    title: 'Old Website',
+    image: oldsiteImg,
+    type: 'Personal Project, Web',
+    tech: ['Javascript', 'HTML', 'CSS/Bootstrap'],
+    description: 'The first version of this personal website, written in raw Javascript and HTML/CSS.',
+    link: 'http://kevinylin.net/',
     ribbon: 'none'
   }
 ]
