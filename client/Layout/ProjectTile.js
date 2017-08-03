@@ -8,31 +8,32 @@ class ProjectTile extends Component {
     super(props)
   }
   render() {
-    const { title, image, tech, type, description } = this.props
+    const { title, image, tech, type, description, link } = this.props
     return (
       <Col xs={12} sm={6} md={4} lg={4}>
-        <FlipCard>
-        <div className="card">
-          <div className="card-image">
-            <img className="project-img" src={image}></img>
-            <span className="card-title">{title}</span>
-          </div>
-                
-          <div className="card-content">
-            <p>{type}</p>
-          </div>
-                
-          <div className="card-action">
-            <div style={{fontSize: '0.85em'}}>
-              I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
+        <a target="_blank" href={link} style={{textDecoration: 'none', color: 'inherit'}}>
+          <FlipCard>
+            <div className="card">
+              <div className="card-image">
+                <img className="project-img" src={image}></img>
+                <span className="card-title">{title}</span>
+              </div>
+                    
+              <div className="card-content">
+                <p>{type}</p>
+              </div>
+                    
+              <div className="card-action">
+                <div style={{fontSize: '0.85em'}}>
+                  I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
+                </div>
+                 <div className="ribbon">Winner</div>
             </div>
-             <div className="ribbon">Winner</div>
-        </div>
-        <div>
-          {description}
-        </div>
-
-        </FlipCard>
+            <div>
+              {description}
+            </div>
+          </FlipCard>
+        </a>
       </Col>
 
     )
