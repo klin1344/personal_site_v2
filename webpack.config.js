@@ -13,30 +13,36 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.js$/,
-      loader: 'babel-loader',
-      exclude: /node_modules/
-    }, {
-      test: /\.jsx$/,
-      loader: 'babel-loader',
-      exclude: /node_modules/
-    }, {
-      test: /\.scss$/,
-      loaders: [
-        'style-loader',
-        'css-loader',
-        'sass-loader'
-      ]
-    }, {
-      test: /\.css$/,
-      loaders: [
-        'style-loader',
-        'css-loader'
-      ]
-    },
-    { test: /\.(png|jpg)$/, 
-      loader: 'url-loader?limit=8192' 
-    }]
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      }, {
+        test: /\.jsx$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      }, {
+        test: /\.scss$/,
+        loaders: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      }, {
+        test: /\.css$/,
+        loaders: [
+          'style-loader',
+          'css-loader'
+        ]
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader?limit=8192'
+      },
+      {
+        test: /\.pdf$/,
+        loader: 'file-loader?name=[path][name].[ext]'
+      }
+    ]
   },
   plugins: [HtmlWebpackPluginConfig]
 }
