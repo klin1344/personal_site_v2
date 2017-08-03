@@ -2765,7 +2765,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0, lodash@~4.17.4:
+lodash@4.17.4, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0, lodash@~4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -3682,7 +3682,13 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10:
+prop-types@15.5.8:
+  version "15.5.8"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
+  dependencies:
+    fbjs "^0.8.9"
+
+prop-types@^15.5.10, prop-types@^15.5.7:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -3811,6 +3817,14 @@ react-fullpage@^0.1.18:
     react "15.3.2"
     react-dom "15.3.2"
 
+react-grid-system@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-2.9.2.tgz#f459424dc9a056f6970e4bc20d6356928ee877da"
+  dependencies:
+    lodash "4.17.4"
+    prop-types "15.5.8"
+    react "15.5.4"
+
 react-particles-js@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-1.5.0.tgz#d30313c52941282b8f8f58eaf909056bcf57a2ba"
@@ -3820,6 +3834,10 @@ react-particles-js@^1.5.0:
     "@types/react-dom" "^0.14.23"
     react "^15.4.1"
 
+react-typeout@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/react-typeout/-/react-typeout-0.6.3.tgz#d5e5218efad3e813791d86bf4dff1423b7bdc855"
+
 react@15.3.2:
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.3.2.tgz#a7bccd2fee8af126b0317e222c28d1d54528d09e"
@@ -3827,6 +3845,15 @@ react@15.3.2:
     fbjs "^0.8.4"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react@15.5.4:
+  version "15.5.4"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.5.4.tgz#fa83eb01506ab237cdc1c8c3b1cea8de012bf047"
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.7"
 
 react@^15.4.1, react@^15.6.1:
   version "15.6.1"

@@ -3,6 +3,7 @@ import { SectionsContainer, Section } from 'react-fullpage'
 
 import Landing from './Landing'
 import About from './About'
+import Projects from './Projects'
 const ProductSpace = () => {
   const options = {
     sectionClassName: 'section',
@@ -19,8 +20,12 @@ const ProductSpace = () => {
       <Section color="#000714">
         <Landing></Landing>
       </Section>
-      <Section><About></About></Section>
-      <Section>Page 3</Section>
+      <Section>
+        <About></About>
+      </Section>
+      <Section>
+        <Projects></Projects>
+      </Section>
     </SectionsContainer>
   )
 }
