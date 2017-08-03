@@ -8,14 +8,13 @@ class ProjectTile extends Component {
     super(props)
   }
   render() {
-    console.log(this.props)
     const {title, image, tech, type} = this.props
     return (
       <Col xs={12} sm={6} md={4} lg={4}>
         <FlipCard>
         <div className="card">
           <div className="card-image">
-            <img className="work-logo" src={image}></img>
+            <img className="project-img" src={image}></img>
             <span className="card-title">{title}</span>
           </div>
                 

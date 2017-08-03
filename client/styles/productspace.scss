@@ -101,7 +101,6 @@ body {
 	  width: 100%;
 	}
 	.card span.card-title {
-	  color: #fff;
 	  font-size: 1.5em;
 	  font-weight: 300;
 	  text-transform: uppercase;
@@ -109,6 +108,9 @@ body {
 	.card .card-image {
 	  position: relative;
 	  overflow: hidden;
+	  height: 70%;
+	  width: 100%;
+	  text-align:center;
 	}
 	.card .card-image img {
 	  border-radius: 2px 2px 0 0;
@@ -146,5 +148,10 @@ body {
 
 	.react-typeout {
 		color: red;
+	}
+
+	.project-img {
+		max-height: 90%;
+		max-width: 90%;
 	}
 }
