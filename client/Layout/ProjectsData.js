@@ -13,7 +13,8 @@ const projectsData = [{
     type: 'Personal Project, Web',
     tech: ['Javascript', 'CSS/Bootstrap', 'HTML'],
     description: 'A Web-based tool for biology that performs both local and global pairwise sequence alignment. Employs a Dynamic Programming solution.',
-    link: 'http://kevinylin.net/Alignr'
+    link: 'http://kevinylin.net/Alignr',
+    ribbon: 'published'
   },
   {
     title: 'defBeats',
@@ -21,7 +22,8 @@ const projectsData = [{
     type: 'PennApps XV, Hardware',
     tech: ['Raspberry Pi', 'Python', 'Flask', 'Javascript', '3D Printing', 'Laser-cutting'],
     description: 'A wearable device that lets deaf people fully immerse themselves in music in real time by converting audio to synchronized vibration motors and an LED equalizer. Created at PennApps XV.',
-    link: 'https://devpost.com/software/defbeats'
+    link: 'https://devpost.com/software/defbeats',
+    ribbon: 'none'
   },
   {
     title: 'OwlSecurity',
@@ -29,7 +31,8 @@ const projectsData = [{
     type: 'CodeRED Curiosity, Android',
     tech: ['Java', 'Android SDK', 'Google Cloud', 'IBM Watson', 'Google Cloud', 'Imgur API'],
     description: 'Turn any old phone into a smart security camera that automatically detects for threats and keep your home safe. Winner for "Best Use of IBM Watson" at CodeRED Curiosity 2016.',
-    link: 'https://github.com/klin1344/OwlSecurity'
+    link: 'https://github.com/klin1344/OwlSecurity',
+    ribbon: 'winner'
   },
   {
     title: 'Cardify Flashcards',
@@ -37,7 +40,8 @@ const projectsData = [{
     type: 'Personal Project, Android',
     tech: ['Java', 'Android SDK'],
     description: 'Create, edit, review, and manage your flashcard sets in the palm of your hand! My first project ever. Published to Google Play Store, January 2014. Over 300 downloads.',
-    link: 'https://play.google.com/store/apps/details?id=com.klin1344.cardify&hl=en'
+    link: 'https://play.google.com/store/apps/details?id=com.klin1344.cardify&hl=en',
+    ribbon: 'published'
   },
   {
     title: 'Energy City',
@@ -45,7 +49,8 @@ const projectsData = [{
     type: 'Personal Project, Android',
     tech: ['Java', 'Android SDK', 'LibGDX'],
     description: 'A simple, yet captivating 2D game that will test your reflexes—and patience! The goal is simple: make the lightning strike hit the battery to charge it and power the city! Published to Google Play Store, July 2014. Over 300 downloads.',
-    link: 'https://play.google.com/store/apps/details?id=com.klin1344.energycity.android&hl=en'
+    link: 'https://play.google.com/store/apps/details?id=com.klin1344.energycity.android&hl=en',
+    ribbon: 'published'
   },
   {
     title: 'Kinematic Physics',
@@ -53,7 +58,8 @@ const projectsData = [{
     type: 'Personal Project, Android',
     tech: ['Java', 'Android SDK'],
     description: 'An intelligent tool to help solve 1-Dimensional and 2-Dimensional physics problems involving the kinematic equations of motion. Published to Google Play, August 2015. Over 3,000 downloads.',
-    link: 'https://play.google.com/store/apps/details?id=com.klin1344.kinematicphysics&hl=en'
+    link: 'https://play.google.com/store/apps/details?id=com.klin1344.kinematicphysics&hl=en',
+    ribbon: 'published'
   },
   {
     title: 'MarsVars',
@@ -61,7 +67,8 @@ const projectsData = [{
     type: 'MLH Prime, VR',
     tech: ['HTC Vive', 'Unity 3D', 'C#', 'AWS DyanomoDB', 'Javacript', 'HTML/CSS'],
     description: 'Virtual reality simulator of Mars to train astronauts to adapt to real-time environment alterations. Finalist (Top 7) at MLH Prime Southwest Regional 2016.',
-    link: 'https://devpost.com/software/marsvars'
+    link: 'https://devpost.com/software/marsvars',
+    ribbon: 'winner'
   },
   {
     title: 'Pictolate',
@@ -69,7 +76,8 @@ const projectsData = [{
     type: 'HackTX, Web',
     tech: ['HTML/CSS', 'Node.js', 'RapidAPI', 'Azure APIs', 'Google Cloud'],
     description: 'A Web-based application that analyzes the contents of any picture and converts it to a foreign language of the users choice. Created at HackTX 2016.',
-    link: 'https://devpost.com/software/pictolate'
+    link: 'https://devpost.com/software/pictolate',
+    ribbon: 'none'
   },
   {
     title: 'Sandals',
@@ -77,7 +85,8 @@ const projectsData = [{
     type: 'HackRice, Android',
     tech: ['Java', 'Android SDK', 'Google Firebase'],
     description: 'A proof-of-concept Android application that helps users interact within different social groups, including family, friends, and peers.  Created at HackRice 2016.',
-    link: 'https://github.com/klin1344/Sandals'
+    link: 'https://github.com/klin1344/Sandals',
+    ribbon: 'none'
   }
 ]
 export default projectsData
