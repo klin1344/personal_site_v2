@@ -6,7 +6,6 @@ body {
     padding-top: 1em;
     height: 100%;
     width: 100%;
-    box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
     overflow: visible;
   }
   .card span.card-title {
@@ -82,8 +81,8 @@ body {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     position: absolute;
-    width: 6em;
-    right: -0.9em;
+    width: 8em;
+    right: -1.8em;
     top: 1.7em;
     color: #fff;
     text-align: center;
