@@ -3,7 +3,7 @@ const workData = [{
     front: {
       title: 'Summer 2017',
       subtitle: 'Software Engineer Intern',
-      description: 'Javascript/ES6, React, MongoDB, Node.js',
+      description: 'Full Stack',
       logo: qriLogo
     },
     back: {
