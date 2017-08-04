@@ -6,7 +6,7 @@ body {
   .ReactFlipCard__Front,
   .ReactFlipCard__Back {
     box-sizing: border-box;
-    height: 25vh;
+    height: 15em;
     width: 100%;
     max-width: 23em;
   }
@@ -17,5 +17,6 @@ body {
     background-color: #dbdbdb;
     padding: 1em;
     overflow-y: auto;
+    box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
   }
 }

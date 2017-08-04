@@ -35,11 +35,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpg)$/,
-        loader: 'url-loader?limit=8192'
-      },
-      {
-        test: /\.pdf$/,
+        test: /\.(png|jpg|pdf)$/,
         loader: 'file-loader?name=[path][name].[ext]'
       }
     ]
