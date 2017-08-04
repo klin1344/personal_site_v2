@@ -25,7 +25,7 @@ class ProjectTile extends Component {
                     
               <div className="card-action">
                 <div style={{fontSize: '0.85em'}}>
-                  I worked with <TypeOut typeSpeed={70} words={tech}></TypeOut>.</div>
+                  I worked with <TypeOut typeSpeed={70} pauseSpeed={1500} words={tech}></TypeOut>.</div>
                 </div>
               <div className={`ribbon ${ribbon}`}>{ribbon}</div>
             </div>
