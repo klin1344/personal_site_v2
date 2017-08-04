@@ -7,6 +7,6 @@ const WorkFront = (props) => {
       <div className="work-front-subtitle">{props.subtitle}</div>
       <div className="work-front-desc">{props.description}</div>
     </div>
-    )
+  )
 }
 export default WorkFront
