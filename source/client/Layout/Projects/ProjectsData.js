@@ -8,6 +8,7 @@ import marsvarsImg from '../../static/project_images/marsvars.jpg'
 import pictolateImg from '../../static/project_images/pictolate.jpg'
 import sandalsImg from '../../static/project_images/sandals.png'
 import oldsiteImg from '../../static/project_images/oldpersonalwebsite.png'
+import newsiteImg from '../../static/project_images/newpersonalwebsite.png'
 const projectsData = [{
     title: 'Alignr',
     image: alignrImg,
@@ -95,8 +96,17 @@ const projectsData = [{
     type: 'Personal Project, Web',
     tech: ['Javascript', 'HTML', 'CSS/Bootstrap'],
     description: 'The first version of this personal website, written in raw Javascript and HTML/CSS.',
-    link: 'http://kevinylin.net/',
+    link: 'https://github.com/klin1344/old-personal-website',
     ribbon: 'none'
+  },
+  {
+    title: 'Personal Website',
+    image: newsiteImg,
+    type: 'Personal Project, Web',
+    tech: ['React', 'Javascript', 'HTML', 'CSS/SASS'],
+    description: 'My personal website, re-designed and re-written with React.',
+    link: 'http://kevinylin.net',
+    ribbon: 'published'
   }
 ]
 export default projectsData
