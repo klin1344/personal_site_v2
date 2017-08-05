@@ -29,7 +29,7 @@ const ProductSpace = () => {
       <div className="divider"></div>
       <footer>
         <i className="fa fa-copyright" aria-hidden="true"> </i> 
-         Kevin Lin {new Date().getFullYear()}.  Built with ReactJS.
+         Kevin Lin {new Date().getFullYear()}.  Built with React.
       </footer>
     </div>
   )

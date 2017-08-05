@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Col } from 'react-grid-system'
+//import { Col } from 'react-grid-system'
 import FlipCard from 'react-flipcard'
 import TypeOut from 'react-typeout'
 
@@ -10,7 +10,7 @@ class ProjectTile extends Component {
   render() {
     const { title, image, tech, type, description, link, ribbon } = this.props
     return (
-      <Col xs={12} sm={6} md={4} lg={4}>
+      <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <a target="_blank" href={link} className="no-decoration">
           <FlipCard>
             <div className="card">
@@ -34,7 +34,7 @@ class ProjectTile extends Component {
             </div>
           </FlipCard>
         </a>
-      </Col>
+      </div>
 
     )
   }
