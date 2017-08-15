@@ -105,7 +105,7 @@ const projectsData = [{
     type: 'Personal Project, Web',
     tech: ['React', 'Javascript', 'HTML', 'CSS/SASS'],
     description: 'My personal website, re-designed and re-written with React.',
-    link: 'http://kevinylin.net',
+    link: 'https://github.com/klin1344/klin1344.github.io',
     ribbon: 'published'
   }
 ]
