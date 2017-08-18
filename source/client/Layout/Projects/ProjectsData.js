@@ -9,7 +9,16 @@ import pictolateImg from '../../static/project_images/pictolate.jpg'
 import sandalsImg from '../../static/project_images/sandals.png'
 import oldsiteImg from '../../static/project_images/oldpersonalwebsite.png'
 import newsiteImg from '../../static/project_images/newpersonalwebsite.png'
+import barkImg from '../../static/project_images/bark.png'
 const projectsData = [{
+    title: 'Bark!',
+    image: barkImg,
+    type: 'Personal Project, Alexa/Amazon Echo',
+    tech: ['Python', 'AWS Lambda', 'Alexa Skills Kit'],
+    description: 'Bark! turns Alexa into a loud, mean dog so you can scare away strangers!',
+    link: 'https://www.amazon.com/dp/B074M2Z6G5/ref=sr_1_4?s=digital-skills&ie=UTF8&qid=1503070450&sr=1-4&keywords=bark%21',
+    ribbon: 'published'
+  }, {
     title: 'Alignr',
     image: alignrImg,
     type: 'Personal Project, Web',
