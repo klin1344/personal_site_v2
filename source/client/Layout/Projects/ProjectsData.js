@@ -11,12 +11,12 @@ import oldsiteImg from '../../static/project_images/oldpersonalwebsite.png'
 import newsiteImg from '../../static/project_images/newpersonalwebsite.png'
 import barkImg from '../../static/project_images/bark.png'
 const projectsData = [{
-    title: 'Bark!',
-    image: barkImg,
-    type: 'Personal Project, Alexa/Amazon Echo',
-    tech: ['Python', 'AWS Lambda', 'Alexa Skills Kit'],
-    description: 'Bark! turns Alexa into a loud, mean dog so you can scare away strangers!',
-    link: 'https://www.amazon.com/dp/B074M2Z6G5/ref=sr_1_4?s=digital-skills&ie=UTF8&qid=1503070450&sr=1-4&keywords=bark%21',
+    title: 'Personal Website',
+    image: newsiteImg,
+    type: 'Personal Project, Web',
+    tech: ['React', 'Javascript', 'HTML', 'CSS/SASS'],
+    description: 'My personal website, re-designed and re-written with React.',
+    link: 'https://github.com/klin1344/klin1344.github.io',
     ribbon: 'published'
   }, {
     title: 'Alignr',
@@ -25,6 +25,15 @@ const projectsData = [{
     tech: ['Javascript', 'CSS/Bootstrap', 'HTML'],
     description: 'A Web-based tool for biology that performs both local and global pairwise sequence alignment. Employs a Dynamic Programming solution.',
     link: 'http://kevinylin.net/Alignr',
+    ribbon: 'published'
+  },
+  {
+    title: 'Bark!',
+    image: barkImg,
+    type: 'Personal Project, Alexa/Amazon Echo',
+    tech: ['Python', 'AWS Lambda', 'Alexa Skills Kit'],
+    description: 'Bark! turns Alexa into a loud, mean dog so you can scare away strangers!',
+    link: 'https://www.amazon.com/dp/B074M2Z6G5/ref=sr_1_4?s=digital-skills&ie=UTF8&qid=1503070450&sr=1-4&keywords=bark%21',
     ribbon: 'published'
   },
   {
@@ -107,15 +116,6 @@ const projectsData = [{
     description: 'The first version of this personal website, written in raw Javascript and HTML/CSS.',
     link: 'https://github.com/klin1344/old-personal-website',
     ribbon: 'none'
-  },
-  {
-    title: 'Personal Website',
-    image: newsiteImg,
-    type: 'Personal Project, Web',
-    tech: ['React', 'Javascript', 'HTML', 'CSS/SASS'],
-    description: 'My personal website, re-designed and re-written with React.',
-    link: 'https://github.com/klin1344/klin1344.github.io',
-    ribbon: 'published'
   }
 ]
 export default projectsData
