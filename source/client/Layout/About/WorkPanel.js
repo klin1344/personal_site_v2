@@ -9,11 +9,14 @@ const WorkPanel = () => {
   const renderWorkTiles = (workData) => {
     return workData.map(data => {
       return (
-        <div key={data.front.title} className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <FlipCard>
-              <WorkFront {...data.front}></WorkFront>
-              <WorkBack {...data.back}></WorkBack>
-          </FlipCard>
+        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6" key={data.front.title}>
+          <a target="_blank" href={data.link}
+             className="no-decoration">
+            <FlipCard>
+                <WorkFront {...data.front}></WorkFront>
+                <WorkBack {...data.back}></WorkBack>
+            </FlipCard>
+          </a>
         </div>
       )
     })
