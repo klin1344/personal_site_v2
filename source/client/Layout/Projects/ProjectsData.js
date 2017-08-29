@@ -28,15 +28,6 @@ const projectsData = [{
     ribbon: 'published'
   },
   {
-    title: 'Bark!',
-    image: barkImg,
-    type: 'Personal Project, Alexa/Amazon Echo',
-    tech: ['Python', 'AWS Lambda', 'Alexa Skills Kit'],
-    description: 'Bark! turns Alexa into a loud, mean dog so you can scare away strangers!',
-    link: 'https://www.amazon.com/dp/B074M2Z6G5/ref=sr_1_4?s=digital-skills&ie=UTF8&qid=1503070450&sr=1-4&keywords=bark%21',
-    ribbon: 'published'
-  },
-  {
     title: 'defBeats',
     image: defbeatsImg,
     type: 'PennApps XV, Hardware',
@@ -107,6 +98,15 @@ const projectsData = [{
     description: 'A proof-of-concept Android application that helps users interact within different social groups, including family, friends, and peers.  Created at HackRice 2016.',
     link: 'https://github.com/klin1344/Sandals',
     ribbon: 'none'
+  },
+  {
+    title: 'Bark!',
+    image: barkImg,
+    type: 'Personal Project, Alexa/Amazon Echo',
+    tech: ['Python', 'AWS Lambda', 'Alexa Skills Kit'],
+    description: 'Bark! turns Alexa into a loud, mean dog so you can scare away strangers!',
+    link: 'https://www.amazon.com/dp/B074M2Z6G5/ref=sr_1_4?s=digital-skills&ie=UTF8&qid=1503070450&sr=1-4&keywords=bark%21',
+    ribbon: 'published'
   },
   {
     title: 'Old Website',
