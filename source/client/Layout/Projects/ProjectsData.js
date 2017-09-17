@@ -10,11 +10,12 @@ import sandalsImg from '../../static/project_images/sandals.png'
 import oldsiteImg from '../../static/project_images/oldpersonalwebsite.png'
 import newsiteImg from '../../static/project_images/newpersonalwebsite.png'
 import barkImg from '../../static/project_images/bark.png'
+import reactTemplateImg from '../../static/project_images/reacttemplate.png'
 const projectsData = [{
     title: 'Personal Website',
     image: newsiteImg,
     type: 'Personal Project, Web',
-    tech: ['React', 'Javascript', 'HTML', 'CSS/SASS'],
+    tech: ['React', 'Node.js', 'Javascript', 'HTML', 'CSS/SASS'],
     description: 'My personal website, re-designed and re-written with React.',
     link: 'https://github.com/klin1344/klin1344.github.io',
     ribbon: 'published'
@@ -26,6 +27,15 @@ const projectsData = [{
     description: 'A Web-based tool for biology that performs both local and global pairwise sequence alignment. Employs a Dynamic Programming solution.',
     link: 'http://kevinylin.net/Alignr',
     ribbon: 'published'
+  },
+  {
+    title: 'React Template',
+    image: reactTemplateImg,
+    type: 'Personal Project, Web',
+    tech: ['React', 'Node.js', 'Javascript', 'HTML'],
+    description: 'A ready-to-build template and folder structure for React projects, with Express server.',
+    link: 'https://github.com/klin1344/react-template',
+    ribbon: 'none'
   },
   {
     title: 'defBeats',
