@@ -11,7 +11,16 @@ import oldsiteImg from '../../static/project_images/oldpersonalwebsite.png'
 import newsiteImg from '../../static/project_images/newpersonalwebsite.png'
 import barkImg from '../../static/project_images/bark.png'
 import reactTemplateImg from '../../static/project_images/reacttemplate.png'
+import dataDrivenImg from '../../static/project_images/datadriven.png'
 const projectsData = [{
+    title: 'DataDriven',
+    image: dataDrivenImg,
+    type: 'HackRice 2017, Web',
+    tech: ['Python', 'React', 'Node.js', 'Javascript', 'HTML', 'CSS/SASS'],
+    description: 'A data-driven solution to automatically connect people with carpool buddies.',
+    link: 'https://devpost.com/software/datadriven',
+    ribbon: 'none'
+  }, {
     title: 'Personal Website',
     image: newsiteImg,
     type: 'Personal Project, Web',
@@ -85,7 +94,7 @@ const projectsData = [{
   {
     title: 'MarsVars',
     image: marsvarsImg,
-    type: 'MLH Prime, VR',
+    type: 'MLH Prime 2016, VR',
     tech: ['HTC Vive', 'Unity 3D', 'C#', 'AWS DyanomoDB', 'Javacript', 'HTML/CSS'],
     description: 'Virtual reality simulator of Mars to train astronauts to adapt to real-time environment alterations. Finalist (Top 7) at MLH Prime Southwest Regional 2016.',
     link: 'https://devpost.com/software/marsvars',
@@ -94,7 +103,7 @@ const projectsData = [{
   {
     title: 'Pictolate',
     image: pictolateImg,
-    type: 'HackTX, Web',
+    type: 'HackTX 2016, Web',
     tech: ['HTML/CSS', 'Node.js', 'RapidAPI', 'Azure APIs', 'Google Cloud'],
     description: 'A Web-based application that analyzes the contents of any picture and converts it to a foreign language of the users choice. Created at HackTX 2016.',
     link: 'https://devpost.com/software/pictolate',
@@ -103,7 +112,7 @@ const projectsData = [{
   {
     title: 'Sandals',
     image: sandalsImg,
-    type: 'HackRice, Android',
+    type: 'HackRice 2016, Android',
     tech: ['Java', 'Android SDK', 'Google Firebase'],
     description: 'A proof-of-concept Android application that helps users interact within different social groups, including family, friends, and peers.  Created at HackRice 2016.',
     link: 'https://github.com/klin1344/Sandals',
