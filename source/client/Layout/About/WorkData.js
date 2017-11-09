@@ -20,7 +20,7 @@ const workData = [{
       logo: qriLogo,
     },
     back: {
-      list: ['Returning to the Quantum Technologies team again for the school year.']
+      list: ['Returning for the school year as a part-time contracted Software Engineer', 'Designing and implementing the mapping component and GeoServer for SPA, a web app to automate and visualize well analytics']
     },
     link: 'http://www.qrigroup.com'
   }
