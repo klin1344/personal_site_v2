@@ -7,20 +7,26 @@ const workData = [{
       logo: qriLogo
     },
     back: {
-      list: ['Developed full stack web app, Quantum Toolbox - qDCA, from scratch: qdca.qrigroup.com', 'Built a React/Redux-based frontend for engineers to interactively vet automated oil/gas decline curves', 'Implemented charting, filtering, sorting, and batch grid view functionalities for wells', ' Wrote custom Highcharts plugin to add support for interactive drag-and-drop of decline curves', 'Designed a well data management cloud platform in Node.js and MongoDB to be used with qDCA and shared among all other QRI web apps']
+      list: ['Developed and deployed visualization and analytics platform: qdca.qrigroup.com',
+        'Build a React/Redux-based frontend for decline curve analytics with charting, filtering, sorting, and SSR grid view functionalities for improved client performance',
+        'Wrote custom Highcharts plugin to support drag-and-drop of decline curves',
+        'Designed a MongoDV schema that minimizes data duplication'
+      ]
     },
     link: 'https://qdca.qrigroup.com'
   },
 
   {
     front: {
-      title: 'Summer 2017 - present',
-      subtitle: 'Software Engineer',
+      title: 'August 2017 - present',
+      subtitle: 'Software Engineer Contractor',
       description: 'Full Stack',
       logo: qriLogo,
     },
     back: {
-      list: ['Returning for the school year as a part-time contracted Software Engineer', 'Designing and implementing the mapping component and GeoServer for SPA, a web app to automate and visualize well analytics']
+      list: ['Building REST API to query data from GeoServer data warehouse',
+        'Using Leaflet to build mapping component to visualize GeoServer data for SpeedWise Portfolio Analysis, a web app that automates well analytics'
+      ]
     },
     link: 'http://www.qrigroup.com'
   }
