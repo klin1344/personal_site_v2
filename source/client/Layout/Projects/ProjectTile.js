@@ -10,7 +10,7 @@ class ProjectTile extends Component {
   render() {
     const { title, image, tech, type, description, link, ribbon } = this.props
     return (
-      <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 project-tile">
         <a target="_blank" href={link} className="no-decoration">
           <FlipCard>
             <div className="card">
@@ -29,7 +29,7 @@ class ProjectTile extends Component {
                 </div>
               <div className={`ribbon ${ribbon}`}>{ribbon}</div>
             </div>
-            <div>
+            <div className="card-desc">
               {description}
             </div>
           </FlipCard>

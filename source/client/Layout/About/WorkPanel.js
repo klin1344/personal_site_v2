@@ -9,7 +9,7 @@ const WorkPanel = () => {
   const renderWorkTiles = (workData) => {
     return workData.map(data => {
       return (
-        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6" key={data.front.title}>
+        <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4" key={data.front.title}>
           <a target="_blank" href={data.link}
              className="no-decoration">
             <FlipCard>

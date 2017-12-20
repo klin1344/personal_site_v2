@@ -1,5 +1,12 @@
 body {
+  .project-tile {
+    text-align: center;
+  }
+  .card-desc {
+    text-align: left;
+  }
   .card {
+    text-align: left;
     box-sizing: border-box;
     border-radius: 2px;
     background-clip: padding-box;
