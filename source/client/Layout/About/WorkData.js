@@ -8,7 +8,13 @@ const workData = [{
     logo: tableauLogo,
   },
   back: {
-    list: ['Incoming Software Engineer Intern at Tableau Software for Summer 2018.']
+    list: [
+      'Worked on the Connectivity Scrum Team for Tableau Prep (Project Maestro',
+      'Developed a general-purpose telemetry library that enables feedback gathering on UI components',
+      'Built an API in Java to connect to BigQuery and designed React/TypeScript higher-order components',
+      'Wrote feature, development, and test specs and passed Security Team reviews',
+      'Implemented many bug fixes that have been shipped in Tableau Prep 2018.1.2 and 2018.2.1'
+    ]
   },
   link: 'https://www.tableau.com'
 }, {

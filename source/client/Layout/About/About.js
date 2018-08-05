@@ -12,12 +12,12 @@ const About = () => {
         <p className="header">Hello.</p>
         <div className="about-text">
           <div>My name is <span className="emphasized">Kevin Lin</span>.</div>
-          <div>I am an undergraduate student at <span className="emphasized"><a className="no-decoration" href="http://www.rice.edu/">Rice University</a></span> studying <span className="emphasized">Computer Science</span>.</div>
+          <div>I am an undergraduate student at <span className="emphasized"><a className="no-decoration" href="http://www.rice.edu/">Rice University</a></span> studying <span className="emphasized">Computer Science</span>. and will be graduating in <span className="emphasized">May 2020</span>.</div>
           <br />
           <div>I like to build things.</div>
           <br />
 
-          <div>In the past, I have worked at <span className="emphasized">QRI International, LLC</span>.  This summer, I will be working at <span className="emphasized">Tableau Software </span>.</div>
+          <div>In the past, I have worked at <span className="emphasized">QRI International, LLC</span> and <span className="emphasized">Tableau Software</span>.</div>
           <br />
 
         </div>
