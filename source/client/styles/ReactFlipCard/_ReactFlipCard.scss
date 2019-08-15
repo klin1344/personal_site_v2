@@ -2,6 +2,7 @@ body {
   .ReactFlipCard {
     margin: 0.5em 1em;
   }
+
   .ReactFlipCard,
   .ReactFlipCard__Front,
   .ReactFlipCard__Back {
@@ -10,15 +11,23 @@ body {
     width: 100%;
     max-width: 23em;
   }
+
   .ReactFlipCard__Front {
     background-color: #f2f2f2;
     box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
     overflow: hidden;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: white;
   }
+
   .ReactFlipCard__Back {
-    background-color: #dbdbdb;
+    background-color: #f2f2f2;
     padding: 1.2em;
     overflow-y: auto;
     box-shadow: 0 0.4em 1em 0 rgba(0, 0, 0, 0.16), 0 0.5em 2em 0 rgba(0, 0, 0, 0.12);
+    border-style: solid;
+    border-width: 0.10em;
+    border-color: white;
   }
 }
