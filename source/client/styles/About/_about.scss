@@ -55,7 +55,13 @@ body {
 
   .social-button {
     font-size: 2.5em;
-    cursor: pointer;
-    margin-left: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.5);
+      transition: all .2s ease-in-out;
+    }
   }
 }
