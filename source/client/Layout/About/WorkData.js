@@ -12,8 +12,8 @@ const workData = [
       list: [
         'Worked at Tableau Software, a Salesforce company, on the Object Model Team',
         'Worked in C++ on compilers and database query plans for the Tableau Calculation Language',
-        'Introduced a new, highly requested class of operators to the language that will ship in Tableau 2020.1',
-        'Used visitor pattern to extend the lexer, parser, type-checker, and query pipeline to support new syntax',
+        'Designed a new, highly requested class of operators that reduces language verbosity by over 75% ',
+        'Utilized Visitor Pattern to extend the lexer, parser, type-checker, and query pipeline to support new syntax and merged feature to production for shipping in Tableau 2020.1 ',
       ]
     },
     link: 'https://www.tableau.com'
