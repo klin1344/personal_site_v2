@@ -12,7 +12,17 @@ import newsiteImg from '../../static/project_images/newpersonalwebsite.png'
 import barkImg from '../../static/project_images/bark.png'
 import reactTemplateImg from '../../static/project_images/reacttemplate.png'
 import dataDrivenImg from '../../static/project_images/datadriven.png'
+import workOrdersImg from '../../static/project_images/workorders.png'
+
 const projectsData = [{
+  title: 'WorkOrders',
+  image: workOrdersImg,
+  type: 'HackRice 2019, Web',
+  tech: ['MongoDB', 'React', 'Node.js', 'Javascript'],
+  description: 'A full stack platform for work order optimization, data analytics and visualization, and automated service tracking.  Won 3rd place overall at HackRice 9 and 1st place for Chevron’s Work Order optimization track.',
+  link: 'https://devpost.com/software/chevron-workorders',
+  ribbon: 'winner'
+}, {
   title: 'DataDriven',
   image: dataDrivenImg,
   type: 'HackRice 2017, Web',
